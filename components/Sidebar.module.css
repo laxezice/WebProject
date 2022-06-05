@@ -1,0 +1,9 @@
+.MuiButtonBase-root {
+  height: 100%;
+}
+
+.cardToggel {
+  opacity: 100%;
+  color: rgba(240, 240, 240, 0.867);
+  
+}

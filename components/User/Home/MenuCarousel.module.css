@@ -1,0 +1,12 @@
+
+.card {
+    margin-right: 5%;
+    border : 'none';
+}
+
+.alice-carousel__dots:not(.__custom) {
+    position: absolute;
+    top : 0;
+    margin: 20px;
+    color: yellowgreen;
+}

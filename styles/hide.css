@@ -1,0 +1,58 @@
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* 
+.alice-carousel__next-btn {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  width: 50px;
+}
+
+.alice-carousel__prev-btn {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 50px;
+}
+
+.alice-carousel__prev-btn:hover {
+  background: white;
+}
+/* 
+.alice-carousel__dots {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+} */
+
+/* .alice-carousel__dots {
+  width: 100%;
+  bottom: 5000px;
+}  */
+
+.alice-carousel__dots-item:not(.__custom) {
+  background-color: #c5c5c5;
+}
+
+.alice-carousel__dot-item {
+  background-color: blue;
+  margin: 5;
+}
+.alice-carousel__dots-item.__active:not(.__custom) {
+  background-color: rgb(19, 101, 226);
+
+}
