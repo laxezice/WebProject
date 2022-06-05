@@ -1,9 +1,9 @@
 // THIS IS SAMPLE CODE ONLY - NOT MEANT FOR PRODUCTION USE
 import { BlobServiceClient } from "@azure/storage-blob";
 
-const sasToken = process.env.SAS_TOKEN;
+const sasToken = process.env.NEXT_PUBLIC_SAS_TOKEN;
 const containerName = `images`;
-const storageAccountName = process.env.ACCOUNT_NAME;
+const storageAccountName = process.env.NEXT_PUBLIC_ACCOUNT_NAME;
 
 // Feature flag - disable storage feature to app if not configured
 export const isStorageConfigured = () => {
